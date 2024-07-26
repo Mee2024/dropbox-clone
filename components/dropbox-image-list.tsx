@@ -18,7 +18,6 @@ export default function DropboxImageList({ searchInput }) {
         searchImagesQuery.data.map((image) => (
           <DropboxImage key={image.id} image={image} />
         ))}
-  
     </section>
   );
 }
